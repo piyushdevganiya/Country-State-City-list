@@ -4,7 +4,7 @@ Create Country state city dropdown list dynamically using jquery
 
 **Usage**
 
-##Without Selected Data
+## Without Selected Data
 >
 **HTML Code:**
 ```
@@ -18,7 +18,7 @@ Create Country state city dropdown list dynamically using jquery
 $(this).CountryList("example1-country","example1-state","example1-city");
 ```
 
-##With Selected Data
+## With Selected Data
 >
 **HTML Code:**
 ```
