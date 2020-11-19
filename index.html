@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>Country State City List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Example 1 <small>(Without selected data)</small></h1>
+        <div class="form-group">
+            <label for="country">Select Country:</label>
+            <select class="form-control" id="example1-country">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="state">Select State:</label>
+            <select class="form-control" id="example1-state">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="city">Select City:</label>
+            <select class="form-control" id="example1-city">
+            </select>
+        </div>
+        <h1>Example 2 <small>(With selected data)</small></h1>
+        <div class="form-group">
+            <label for="country">Select Country:</label>
+            <select class="form-control" id="example2-country" data-selected="India">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="state">Select State:</label>
+            <select class="form-control" id="example2-state" data-selected="Gujarat">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="city">Select City:</label>
+            <select class="form-control" id="example2-city" data-selected="Surat">
+            </select>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="countrylist.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(this).CountryList("example1-country","example1-state","example1-city");
+            $(this).CountryList("example2-country","example2-state","example2-city");
+        })
+    </script>
+</body>
+</html>
