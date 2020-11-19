@@ -32,7 +32,7 @@ $(this).CountryList("example1-country","example1-state","example1-city");
 <select id="example2-city" data-selected="Surat"></select>
 ```
 
-Javascript Code:
+**Javascript Code:**
 ```
 $(this).CountryList("example2-country","example2-state","example2-city");
 ```
