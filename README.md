@@ -3,7 +3,13 @@ Create Country state city dropdown list dynamically using jquery
 
 
 **Usage**
-
+**You must include jQuery CDN and countrylist.js**
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="countrylist.js"></script>
+```
+<
+```
 ## Without Selected Data
 >
 **HTML Code:**
