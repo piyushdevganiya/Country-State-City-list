@@ -7,13 +7,16 @@ Usage
 Without Selected Data
 
 HTML Code:
-
+```
 <select id="example1-country"></select>
 <select id="example1-state"></select>
 <select id="example1-city"></select>
+```
 
 Javascript Code:
+```
 $(this).CountryList("example1-country","example1-state","example1-city");
+```
 
 With Selected Data
 
